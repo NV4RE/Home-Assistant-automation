@@ -7,11 +7,6 @@ blueprint:
   input:
     ts0044_device:
       name: TS0044 Remote
-      selector:
-        device:
-          filter:
-            model: TS0044
-
     # Actions
     button_1_press:
       name: Actions for Button 1 Pressed
