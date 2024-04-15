@@ -8,9 +8,9 @@ blueprint:
     ts0044_device:
       name: TS0044 Remote
       selector:
-        device:
+        device: # allow all devices
           filter:
-
+            integration: zha
 
     # Actions
     button_1_press:
