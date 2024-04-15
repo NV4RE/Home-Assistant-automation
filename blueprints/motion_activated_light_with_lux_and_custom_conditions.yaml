@@ -8,7 +8,8 @@ blueprint:
     ts0044_device:
       name: TS0044 Remote
       selector:
-        device: 
+        device:
+          filter:
 
 
     # Actions
